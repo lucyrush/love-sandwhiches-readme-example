@@ -4,7 +4,7 @@ Love Sandwiches is a command-line based Python program to handle data automation
 
 Love Sandwiches will collect the company’s market day sales data,  calculate the surplus for the day, and produce recommendations for the number of each sandwich to make for the next market. The goal is to save the company staff time by automating a repetitive task and help reduce the surplus by better predicting sales for future markets. To achieve this, we will wire up our Python program to interact with a Google Sheet, so that we can push and pull data to and from the spreadsheet.
 
-<insert mockup>
+![Mockup](p3_mockup.png)
   
 ## Features 
 
@@ -12,13 +12,19 @@ Love Sandwiches will collect the company’s market day sales data,  calculate t
 
 - __The Run Program Button__
 
-Featured at the top of the page, 
+Featured at the top of the page, this buttons allows the user to run the program 
+
+![run](run.png)
 
 - __The Terminal Area__
 
 In this section, the program will request the market day sales data from our user,  and then check if the data provided is valid.  If it isn’t, the data will be requested again. Once the data is confirmed as valid, the rest of the program will run to add the sales data to the sales worksheet, calculate and update the surplus data, calculate the sales averages and make stock recommendations. 
 
+![terminal](terminal.png)
+
 - __The Program Structure__
+
+![structure](structure.png)
  
 ### Features Left to Implement
 
